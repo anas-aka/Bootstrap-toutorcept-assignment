@@ -1,0 +1,154 @@
+
+.mt-4 {
+    margin-top: 4.5rem!important;
+} 
+img.card-img-top {
+    height: 286px;
+}
+
+#Team{
+    background: rgb(249, 170, 33);
+   height: 250px;
+}
+.social-msg{
+    font-size: large;
+    font-weight: 800;
+}
+
+.social-menu ul  {
+    list-style: none;
+    margin:0px -310px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-self: flex-end;
+    
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .bi {
+    font-size: 30px;
+    line-height: 60px;
+    transition: .6s;
+    color: #000;
+}
+
+ .social-menu ul li a {
+position: relative;
+display: block;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+background-color: #fff;
+text-align: center; 
+transition: .6s;
+box-shadow: 0 5px 4px rgba(0,0,0,.5);
+} 
+.social-menu ul li a:hover{
+    transform: translate(0,-15px);
+} 
+ /* hover card section  */
+
+ .card1 {
+    perspective: 100%;
+    position: relative;
+    height: 200px;
+    max-width: 100%;
+    margin: 0rem;
+    box-shadow: darkcyan;
+    background: none;
+  }
+  
+  .card-side {
+    height: 200px;
+    border-radius: 2px;
+    transition: all 1.8s ease;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    color: white;
+  }
+  
+  .card-side.back {
+    transform: rotatex(-180deg);
+    background-color: #4158D0;
+    /* background-image: linear-gradient(43deg, #4158D0 0%,#C850C0 46%, #FFCC70 100%); */
+    background-image: linear-gradient(43deg, #2d2923 0%,#243170 46%, #431340 100%);
+  }
+  
+  .card-side.front {
+    background-image: linear-gradient(43deg, #4158D0 0%,#50bac8 46%, #FFCC70 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  .card1:hover .card-side.front {
+    transform: rotatex(180deg);
+  }
+  
+  .card1:hover .card-side.back {
+    transform: rotatex(0deg);
+  }
+
+
+  .hover:hover{
+    transform: scale(1.2);
+    z-index:3;
+    transition: all 1.0s ease;
+    text-decoration:#4158D0;
+  }
+  
+/* colors */
+.nav-color{
+  
+  background-image: linear-gradient(160deg, #f8f9f9ce 10%,#345a6a 50%, #000000 100%);
+
+}
+.brd{
+  border-bottom: 6px solid red;
+  box-shadow: #50bac8;
+
+}
+.bg{
+  background-image: linear-gradient(43deg, #4158D0 0%,#C850C0 46%, #FFCC70 100%);
+
+}
+.google-bg{
+background-image: linear-gradient(43deg, #e39024d4 0%,#fa0d0d 46%, #ab1919 100%);
+}
+.bg-dark{
+  background-image: linear-gradient(43deg, #2d2923 0%,#243170 46%, #431340 100%);
+
+}
+.card-col{
+  background-image: linear-gradient(43deg, #5891c6d4 0%,#56aec7 46%, #3484ec 100%);
+  }
+
+  .rev-hw{
+    height: 60px;
+    width: 60px;
+    border: #ab1919;
+  }
+  .t-font{
+    color: whitesmoke;
+    font-family: 'Tangerine', serif;
+    font-size: 60px;
+    text-shadow: 3px 3px 3px rgb(238, 15, 12);
+    
+  }
+  .font{
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe Script', serif;
+    font-size: 60px;
+    text-shadow: 3px 3px 3px rgb(228, 155, 19);
+    
+  }
+  .text-color{
+  color: #FFE4E1;
+
+  }
